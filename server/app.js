@@ -2,7 +2,7 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const dotenv = require('dotenv');
+// const dotenv = require('dotenv');
 
 // تحميل متغيرات البيئة من ملف .env (في التطوير فقط)
 dotenv.config();
