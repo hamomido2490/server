@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 // const dotenv = require('dotenv');
 
 // تحميل متغيرات البيئة من ملف .env (في التطوير فقط)
-dotenv.config();
+//dotenv.config();
 
 // ======== استدعاء الراوترات ========
 const authRoutes = require('./routes/authRoutes');
